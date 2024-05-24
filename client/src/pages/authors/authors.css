@@ -1,0 +1,20 @@
+.authors {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.authorsTitle {
+  margin-top: 50px;
+}
+.linksPart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.authorsLink {
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 30px;
+}

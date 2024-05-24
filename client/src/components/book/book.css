@@ -1,0 +1,21 @@
+.book {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bookTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bookNum {
+  width: 15px;
+}
+.bookTitle {
+  width: calc(100% - 15px - 100px);
+  display: flex;
+  text-align: left;
+}

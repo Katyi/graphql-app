@@ -1,0 +1,27 @@
+.author {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.authorTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.authorBooks {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.authorBooks:last-child {
+  margin-bottom: 0;
+}
+.authorBooksNum {
+  width: 15px;
+}
+.authorBooksTitle {
+  width: calc(100% - 15px);
+}

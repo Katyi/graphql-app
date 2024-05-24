@@ -1,0 +1,102 @@
+*::before
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  background: #fff;
+  color: #4f5f76;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container, .loading, .error {
+  width: calc(100vw);
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  align-items: center;
+  background: #ebf1f7;
+  background: whitesmoke;
+}
+.loading, .error {
+  justify-content: center;
+}
+
+.card {
+  width: 70%;
+  padding: 5px;
+}
+.card:first-child {
+  margin-top: 50px;
+}
+.card:last-child {
+  margin-bottom: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.updateForm {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+label {
+  font-size: 12px;
+  font-weight: 700;
+}
+input {
+  width: calc(300px - 15px - 15px - 2px);
+  height: calc(13.25px + 6.75px);
+  padding: 3px 15px;
+  border: 1px solid #A9A9A9;
+  border-radius: 4px;
+  background: #fff;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #4e5867;
+}
+.btns {
+  display: flex;
+  gap: 5px;
+}
+.btn {
+  max-width: fit-content;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 700;
+  background: gray;
+}
+.smalBtn {
+  font-size: 11px;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 5px;
+  color: #fff;
+  font-weight: 700;
+  background: gray;
+}
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}

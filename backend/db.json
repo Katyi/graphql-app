@@ -1,0 +1,80 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "name": "J.K. Rowling"
+    },
+    {
+      "id": "2",
+      "name": "J. D. Salinger"
+    },
+    {
+      "id": "3",
+      "name": "Stephen King"
+    },
+    {
+      "id": "4",
+      "name": "Victor Hugo"
+    },
+    {
+      "id": "5",
+      "name": "R. F. Kuang"
+    },
+    {
+      "id": "6",
+      "name": "J.K. Rowling"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Sorcerer's stone",
+      "authorId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "authorId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "authorId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Catcher in the Rye",
+      "authorId": "2"
+    },
+    {
+      "id": "5",
+      "title": "The Shining",
+      "authorId": "3"
+    },
+    {
+      "id": "6",
+      "title": "Christine",
+      "authorId": "3"
+    },
+    {
+      "id": "7",
+      "title": "Yellowface",
+      "authorId": "5"
+    },
+    {
+      "id": "8",
+      "title": "Holly",
+      "authorId": "3"
+    },
+    {
+      "id": "9",
+      "title": "You Like It Darker",
+      "authorId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Notre-Dame de Paris",
+      "authorId": "4"
+    }
+  ]
+}

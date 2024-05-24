@@ -1,0 +1,11 @@
+.homeTitle {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.homeLink {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 40px;
+}
